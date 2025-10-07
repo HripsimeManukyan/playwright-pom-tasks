@@ -1,3 +1,4 @@
+Playwright POM Tasks
 
 ![Playwright](https://img.shields.io/badge/Tested%20With-Playwright-2ea44f?logo=microsoftedge\&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178c6?logo=typescript\&logoColor=white)
