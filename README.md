@@ -1,4 +1,6 @@
-Playwright POM Tasks
+---
+
+# Playwright POM Tasks
 
 ![Playwright](https://img.shields.io/badge/Tested%20With-Playwright-2ea44f?logo=microsoftedge\&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178c6?logo=typescript\&logoColor=white)
@@ -113,6 +115,26 @@ This will open the latest test report in your browser.
 
 ---
 
+## ✅ Example Test Flow
+
+For example, the **Change Password test**:
+
+1. Logs in with valid credentials.
+2. Changes the password.
+3. Logs out and verifies login with the new password.
+4. Resets the password back to the original.
+
+---
+
+## 🚀 Future Enhancements
+
+* Add **API tests** using Playwright’s request context.
+* Integrate with **CI/CD pipelines** (GitHub Actions, GitLab CI, or Jenkins).
+* Add **environment configs** for staging/production.
+* Enhance **reporting** with Allure or custom dashboards.
+
+---
+
 ## 📌 Requirements
 
 * Node.js **v18+**
@@ -120,9 +142,12 @@ This will open the latest test report in your browser.
 * TypeScript **5+**
 
 ---
-License
 
-This project is licensed under the MIT License. You are free to use, modify, and distribute this software, provided proper attribution to the original author is included.
-See the LICENSE file for more details.
+## 📜 License
+
+This project is licensed under the **MIT License** – you are free to use, modify, and distribute it with proper attribution.
+See the [LICENSE](LICENSE) file for details.
+
+---
 
 
