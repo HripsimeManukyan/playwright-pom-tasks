@@ -121,6 +121,7 @@ This will open the latest test report in your browser.
 
 ---
 License
+
 This project is licensed under the MIT License. You are free to use, modify, and distribute this software, provided proper attribution to the original author is included.
 See the LICENSE file for more details.
 
