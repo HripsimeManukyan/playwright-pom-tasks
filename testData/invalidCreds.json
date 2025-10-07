@@ -1,0 +1,27 @@
+[
+  {
+    "scenario": "invalid email format",
+    "email": "exampletestgmail.com",
+    "password": "Qa!2025Test"
+  },
+  {
+    "scenario": "wrong password",
+    "email": "exampletest@gmail.com",
+    "password": "wrongpassword"
+  },
+  {
+    "scenario": "empty email field",
+    "email": "",
+    "password": "Qa!2025Test"
+  },
+  {
+    "scenario": "empty password field",
+    "email": "exampletest@gmail.com",
+    "password": ""
+  },
+  {
+    "scenario": "both empty fields",
+    "email": "",
+    "password": ""
+  }
+]
