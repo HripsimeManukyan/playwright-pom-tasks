@@ -1,5 +1,5 @@
 import { test } from "@playwright/test";
-import { CurrencyPage } from "../PageObjects/currencyPage";
+import { CurrencyPage } from "../PageObjects/CurrencyPage";
 
 
 
