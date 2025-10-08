@@ -1,18 +1,15 @@
 import { expect, Page } from "@playwright/test";
-import { BaseUrl } from "../utils/constants";
+import { BasePage } from "./BasePage";
 
-export class SearchPage {
+export class SearchPage extends BasePage {
   readonly page: Page;
 
   constructor(page: Page) {
+    super(page)
     this.page = page;
   }
 
-  async goToHomePage(): Promise<void> {
-    await this.page.goto(BaseUrl);
-    await expect(this.page).toHaveURL(/route=common\/home/);
-    await expect(this.page).toHaveTitle("Your Store");
-  }
+
 
   async fillSearchInput(searchItem: string): Promise<void> {
     await this.page.getByRole("textbox", { name: "Search" }).click();

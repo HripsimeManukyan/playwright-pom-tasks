@@ -1,18 +1,13 @@
 import { expect, Page } from "@playwright/test";
-import { BaseUrl } from "../utils/constants";
+import { BasePage } from "./BasePage";
 
-export class LoginPage {
+export class LoginPage extends BasePage {
   readonly page: Page;
 
   constructor(page: Page) {
+    super(page)
     this.page = page;
   }
-
-   async goToHomePage(): Promise<void> {
-        await this.page.goto(BaseUrl);
-        await expect(this.page).toHaveURL(/route=common\/home/);
-        await expect(this.page).toHaveTitle('Your Store');
-    }
 
   async goToLoginPage(): Promise<void> {
     await this.page.locator('a[title="My Account"]').click();

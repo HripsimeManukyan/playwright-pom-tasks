@@ -1,7 +1,7 @@
 import { expect, Locator, Page } from '@playwright/test';
-import { BaseUrl } from '../utils/constants';
+import { BasePage } from "./BasePage";
 
-export class MenuPage {
+export class MenuPage extends BasePage {
 
     readonly page: Page;
     readonly continueButton: Locator;
@@ -9,15 +9,9 @@ export class MenuPage {
 
 
     constructor(page: Page) {
+        super(page)
         this.page = page;
         this.continueButton = this.page.getByRole('link', { name: 'Continue' });
-    }
-
-
-    async goToHomePage(): Promise<void> {
-        await this.page.goto(BaseUrl);
-        await expect(this.page).toHaveURL(/route=common\/home/);
-        await expect(this.page).toHaveTitle('Your Store');
     }
 
 
