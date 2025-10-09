@@ -1,7 +1,7 @@
 import { test } from "@playwright/test";
 import { ChangePasswordPage } from "../PageObjects/ChangePasswordPage";
 
-test.describe.skip("Change Password Functionality", () => {
+test.describe.skip("Change Password Functionality @change_password", () => {
     let changePasswordPage: ChangePasswordPage;
 
     const credentials = {

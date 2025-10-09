@@ -3,7 +3,7 @@ import { LoginPage } from "../PageObjects/LoginPage";
 import validCredentials from "../testData/validCreds.json";
 import invalidCredentials from "../testData/invalidCreds.json";
 
-test.describe("Login Functionality", () => {
+test.describe("Login Functionality @login", () => {
     let loginPage: LoginPage;
 
 

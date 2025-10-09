@@ -2,7 +2,7 @@ import { MenuPage } from "../PageObjects/MenuPage";
 import { test } from "@playwright/test";
 
 
-test.describe('Menu Tests', () => {
+test.describe('Menu Tests @menu', () => {
 
     let menuPage: MenuPage;
 

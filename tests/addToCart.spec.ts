@@ -1,7 +1,7 @@
 import { test } from "@playwright/test";
 import { CartPage } from "../PageObjects/addToCart";
 
-test.describe("Add to Cart Functionality", () => {
+test.describe("Add to Cart Functionality @cart", () => {
   let cartPage: CartPage;
 
   test.beforeEach(async ({ page }) => {
@@ -23,7 +23,7 @@ test.describe("Add to Cart Functionality", () => {
   });
 });
 
-test.describe("View Cart Functionality", () => {
+test.describe("View Cart Functionality @viewCart", () => {
   let cartPage: CartPage;
 
   test.beforeEach(async ({ page }) => {

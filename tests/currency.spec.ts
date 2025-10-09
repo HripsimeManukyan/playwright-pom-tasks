@@ -3,7 +3,7 @@ import { CurrencyPage } from "../PageObjects/CurrencyPage";
 
 
 
-test.describe("Currency feature", () => {
+test.describe("Currency feature @currency", () => {
   let currencyPage: CurrencyPage;
 
   const currencies = [

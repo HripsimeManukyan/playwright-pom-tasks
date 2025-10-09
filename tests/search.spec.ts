@@ -1,7 +1,7 @@
 import { test } from "@playwright/test";
 import { SearchPage } from "../PageObjects/SearchPage";
 
-test.describe("Search Functionality", () => {
+test.describe("Search Functionality @search", () => {
   let searchPage: SearchPage;
 
   test.beforeEach(async ({ page }) => {
