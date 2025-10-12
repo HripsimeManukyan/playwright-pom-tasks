@@ -1,5 +1,5 @@
 import { test } from "@playwright/test";
-import { CartPage } from "../PageObjects/addToCart";
+import { CartPage } from "../PageObjects/CartPage";
 
 test.describe("Add to Cart Functionality @cart", () => {
   let cartPage: CartPage;
